@@ -6,7 +6,7 @@ function FormComponent({ tone, setTone, length, setLength, features, setFeatures
   <div>
     <div>
       <div>
-      <label for="Tone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
+      <label for="Tone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tone</label>
   <select  id="tone"
   value={tone} 
   onChange={(e) => setTone(e.target.value)}
@@ -19,7 +19,7 @@ function FormComponent({ tone, setTone, length, setLength, features, setFeatures
     </div>
     <div>
       <div>
-  <label for="Length" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
+  <label for="Length" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Length</label>
   <select   id="length"
   value={length}
   onChange={(e) => setLength(e.target.value)}
